@@ -1,0 +1,17 @@
+import java.util.scanner;
+public static void main(String args[])
+Scanner sc=new Scanner(System.in);
+int s=new int();
+int x=new int();
+int sum=0;
+int double=0;
+for(int i=1,y=2;i<=20;i++,y+=4)
+{
+sum=sum+y;
+System.out.println("sum:"+sum);
+}
+for(int i=1,y=2;i<=20;i++,y+2)
+{
+sum=sum+Math.pow(y,3)/i;
+System.out.println("sum:"+sum);
+}
